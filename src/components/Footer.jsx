@@ -1,7 +1,7 @@
 import { AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 const Footer = () => {
   return (
-    <div className='bg-cyan-400 absolute bottom-0 min-w-full '>
+    <div className='bg-slate-500 absolute bottom-0 min-w-full text-gray-300 '>
       <div>
         <h1>Company</h1>
         <p>
