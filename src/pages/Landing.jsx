@@ -6,12 +6,12 @@ import Footer from '../components/Footer';
 const Landing = () => {
   return (
     <>
-      <div className='flex'>
+      <div className='flex h-5/6'>
         <div>
           <Logo />
-          <StyledLink to='/dashboard'>Browze</StyledLink>
-          <div>
-            <p>
+          <StyledLink to='/dashboard'>Look Around</StyledLink>
+          <div className=''>
+            <p className='m-4'>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex minus
               necessitatibus tempore dolore esse temporibus, fuga modi sunt, ad
               quaerat magni quasi. Dolor eligendi, voluptas fugit laudantium id
