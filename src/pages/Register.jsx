@@ -46,7 +46,7 @@ const Register = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, password, isMember } = values;
+    const { name, email, password, isMember, groupId } = values;
     if (!email || !password || (!isMember && !name)) {
       toast.error('Missing fields');
     }
@@ -54,7 +54,7 @@ const Register = () => {
       dispatch(loginUser({ email: email, password: password }));
       return;
     }
-    dispatch(registerUser({ name, email, password }));
+    dispatch(registerUser({ name, email, password, groupId }));
   };
   return (
     <>
